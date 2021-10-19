@@ -1,8 +1,10 @@
 .container{
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    width:85%;
-    max-width: 62.5rem;
+    width: 100%;
+    max-width: 100%;
+    align-items: baseline;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
 }
 nav{
     grid-column:1 / 3;

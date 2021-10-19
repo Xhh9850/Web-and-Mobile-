@@ -1,12 +1,14 @@
 .menu ul{
     list-style-type: none;
-    margin: 0;
+    margin-left: 0;
     padding-left: 0;
     display:flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 .menu li{
-    border: 1px solid #75ace4
+    border: 1px solid #75ace4;
+    text-align: center
 }
 .menu a{
     display: block;
