@@ -1,10 +1,10 @@
 .container{
+    margin-left: 50px;
     width: 100%;
     max-width: 100%;
-    align-items: baseline;
-    justify-content: center;
-    align-content: center;
-    justify-items: center;
+    grid-column-gap: 20px;
+    display:grid;
+    grid-template-columns: 900px 100px;
 }
 nav{
     grid-column:1 / 3;
@@ -21,4 +21,19 @@ nav{
     list-style-type: none;
     margin-left: 1rem;
     margin-right: 1rem;
+}
+.section{
+    padding-left: 200px;
+    text-align:center;
+}
+.body{
+    padding-left: 300px;
+}
+.figure{
+    float: right;
+    width: 18.75rem;
+
+}
+.aside{
+    float:right; 
 }
