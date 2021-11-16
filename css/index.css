@@ -37,3 +37,77 @@ nav{
 .aside{
     float:right; 
 }
+
+.mainpage_image_right{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+.list {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+.citation{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 3;
+
+}
+a:link {
+    color:#02DDFF;
+}
+a:visited {
+    color:blueviolet;
+}
+*{
+    font-family: fantasy;
+}
+#Albedo{
+    color:#FF985E;
+    
+}
+#Keqing{
+    color: #B4009E;
+    
+}
+#maintext{
+    grid-column-start:1;
+    grid-row-start: 1;
+    padding-top: 40px;
+    color: #5ECBC8;
+    margin: 50px;
+    border-style: solid;
+    margin-bottom: 750px;
+
+}
+#Keqing_image{
+    border-style: solid;
+    margin-left: 5px;
+    padding-right: 350px;
+    background-image: url("../images/lightning.jfif");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover
+}
+#Albedo_image{
+    border-style: solid;
+    margin-left: 5px;
+    padding-right:300px;
+    background-image: url("../images/monstadt.jfif");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover
+}
+body{
+    background : lightcoral;
+}
+.flexible{
+    width: 100%;
+    min-width:414px;      
+}
