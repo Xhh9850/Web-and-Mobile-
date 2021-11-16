@@ -106,16 +106,3 @@ a:visited {
 body{
     background : tan;
 }
-.flexible{
-    width: 100%;
-    max-width:414px;      
-}
-#left{
-    display:block
-}
-#middle{
-    display:block
-}
-#right{
-    display:block
-}
