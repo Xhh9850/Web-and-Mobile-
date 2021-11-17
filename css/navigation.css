@@ -25,3 +25,11 @@
     background-color: lightblue;
     
 }
+.menu{
+    grid-column-start: 1;
+    grid-row-start:1 ;
+}
+.flexible{
+    width: 100%;
+    min-width:414px;      
+}

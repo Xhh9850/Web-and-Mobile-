@@ -1,3 +1,4 @@
+
 .container{
     display: grid;
     grid-template-columns:300px 1fr 300px ;
@@ -25,15 +26,96 @@ nav{
     margin-left: 25%;
     margin-right: 25%;
 }
-.grid-1{
+#image_left_secondary_page{
     grid-column-start: 1;
     grid-column-end: 1;
 }
-.grid-2{
+#maintext{
     grid-column-start: 2;
     grid-column-end: 2;
+    grid-row-start:1;
+    grid-row-end:2;
 }
-.grid-3{
+#image_right_secondary_page{
     grid-column-start: 3;
     grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.citation{
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start:3;
+    grid-row-end:3;
+}
+#infotable{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start:3;
+    grid-row-end:3;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 20px;
+    border-style: solid;
+
+}
+a:link {
+    color:#02DDFF;
+}
+a:visited {
+    color:blueviolet;
+}
+*{
+    font-family: fantasy;
+}
+#Xiao {
+    color: #57b956;
+    
+    
+}
+#Ganyu {
+    color:cornflowerblue;
+    
+}
+.rarity{
+    color:gold
+}
+
+#Ganyu_figure {
+    border-style: solid;
+    margin-left: 5px;
+    padding-left: 5px;
+    background-image: url("../images/Liyue_castle.jfif");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover
+
+}
+#Xiao_figure {
+    border-style: solid;
+    margin-top: 108px;
+    margin-left: 30px;
+    padding-right: 350px;
+    background-image: url("../images/Liyue.jfif");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover
+}
+body{
+    background : tan;
+}
+.flexible{
+    width: 100%;
+    max-width:414px;      
+}
+#left{
+    display:block
+}
+#middle{
+    display:block
+}
+#right{
+    display:block
 }
