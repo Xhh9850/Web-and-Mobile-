@@ -20,5 +20,9 @@
         <?php include "inc/navigation.php"; ?>
         <?php include "inc/body.php"; ?>
     </div>
+	<h1> "Getting started" </h1>
+	<p>
+	
+	</p>
     <!--.container-->
 </body>
